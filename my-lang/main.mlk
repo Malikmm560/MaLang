@@ -1,0 +1,12 @@
+public class main{
+    public start(){
+
+    }
+}
+
+public class execute_program{
+    public run(){
+        print.now(x);
+        print.wait((x), "Delayed Hello");
+    }
+}
