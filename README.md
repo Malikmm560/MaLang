@@ -14,9 +14,7 @@ print.now(<content>);
 <content>: The content to print. Can be a string (enclosed in quotes) or a variable.
 
 Example:
-mal
-Copy
-Edit
+
 public class main
 
 public start()
@@ -24,24 +22,18 @@ public start()
     print.now(greeting)
 Output:
 
-text
-Copy
-Edit
+
 Hello, MalLang!
 print.prompt()
 The print.prompt() function is used to print a message and then wait for the user to provide input. This is useful for creating interactive programs.
 
 Syntax:
-mal
-Copy
-Edit
+
 print.prompt(<message>);
 <message>: The message to show before waiting for user input.
 
 Example:
-mal
-Copy
-Edit
+
 public class main
 
 public start()
@@ -52,18 +44,14 @@ print.wait(<seconds>)
 The print.wait(<seconds>) function prints content after a delay, measured in seconds. This is helpful for creating timed outputs.
 
 Syntax:
-mal
-Copy
-Edit
+
 print.wait(<seconds>, <content>);
 <seconds>: The delay in seconds before printing.
 
 <content>: The content (string or variable) to print after the delay.
 
 Example:
-mal
-Copy
-Edit
+
 public class main
 
 public start()
@@ -71,22 +59,17 @@ public start()
 Output (after 2 seconds):
 
 text
-Copy
-Edit
+
 This message appears after 2 seconds.
 public function <name>()
 The public function declaration is used to define reusable functions in MalLang. These functions can be called to execute certain actions within the program.
 
 Syntax:
-mal
-Copy
-Edit
+
 public function <function_name>()
     // function body
 Example:
-mal
-Copy
-Edit
+
 public class main
 
 public function test()
@@ -97,16 +80,13 @@ public start()
 Output:
 
 text
-Copy
-Edit
+
 This is the test function!
 choose()
 The choose() function is used for making random selections or decision-making based on conditions. It evaluates a condition and chooses between two options.
 
 Syntax:
-mal
-Copy
-Edit
+
 choose(<condition>, <option1>, <option2>);
 <condition>: A condition to evaluate.
 
@@ -115,9 +95,7 @@ choose(<condition>, <option1>, <option2>);
 <option2>: The option to choose if the condition is false.
 
 Example:
-mal
-Copy
-Edit
+
 public class main
 
 public start()
@@ -125,16 +103,11 @@ public start()
     choose(isHappy, print.now("I'm happy!"), print.now("I'm sad."))
 Output:
 
-text
-Copy
-Edit
 I'm happy!
 Combining Functions in a Program
 Here’s an example of how you might combine the functions above in a single MalLang program:
 
-mal
-Copy
-Edit
+
 public class main
 
 public function test()
@@ -148,9 +121,7 @@ public start()
     choose(true, print.now("True branch executed."), print.now("False branch executed."))
 Expected Output:
 
-text
-Copy
-Edit
+
 This is a test message!
 This message will appear after 3 seconds.
 What is your name?
